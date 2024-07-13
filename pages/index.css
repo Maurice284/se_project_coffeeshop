@@ -2,8 +2,129 @@
 @import url(../blocks/page.css);
 @import url(../blocks/recipes.css);
 @import url(../blocks/nav.css);
-@import url(../blocks/header.css;);
+@import url(../blocks/header.css);
 @import url(../blocks/coffee.css);
 @import url(../blocks/reservation.css);
 @import url(../blocks/form.css);
 @import url(../blocks/about.css);
+
+.menu {
+  padding: 100px 0 100px;
+  position: relative;
+  background-image: url("../images/background_menu.svg");
+}
+
+.menu__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 44px;
+  text-align: center;
+  /* margin: 0 0 24px; */
+  /* margin-top: 100px; */
+  /* margin-bottom: 24px; */
+  /* max-width: 780px; */
+}
+
+.menu__subtitle {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  margin: 0 0 100px;
+  min-width: 780px;
+}
+
+.menu__cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 100px;
+  margin: 0;
+  list-style-type: none;
+}
+
+.card {
+  width: 540px;
+}
+
+.card__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.card__title {
+  margin: 0 0 32px;
+}
+
+.card__list-item {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 16px;
+  display: flex;
+  flex-grow: 1;
+}
+
+.card__list-item:last-child {
+  margin-bottom: 0;
+}
+
+.card__list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 100px;
+}
+
+/*.card__list-item {
+  display: flex; 
+} */
+
+.card__list-divider {
+  border-bottom: 1px solid black;
+  flex-grow: 1;
+}
+
+.about {
+  background-image: none;
+  position: relative;
+  background-color: #0a2850;
+}
+
+.about__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 30px;
+  width: 426px;
+  height: 426px;
+  margin-top: 100px;
+  margin-left: 80px;
+  color: white;
+  text-align: center;
+  display: flex;
+  background-image: none;
+  max-width: 251px;
+}
+
+.about__paragraph {
+  display: flex;
+  text-align: end;
+  color: white;
+}
