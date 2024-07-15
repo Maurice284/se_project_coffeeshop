@@ -5,11 +5,9 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-}
-
-.header {
   position: relative;
   background-image: url("../images/background_header.svg");
+  background-size: cover;
 }
 
 .header__title {
