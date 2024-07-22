@@ -147,5 +147,54 @@
 }
 
 .about__circle_animation_blurred {
-  animation: pulstate 1.3s ease-in-out infinite;
+  animation: pulsate 1.3s ease-in-out infinite;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(180deg, #0a2850 #071831 100%);
+}
+.footer__logo {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 16px;
+  line-height: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__list {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 16px;
+  line-height: 20px;
+}
+
+.footer__copyright {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 16px;
+  line-height: 20px;
+  margin-top: 108px;
+  margin-bottom: 60px;
+}
+
+.footer__social-heading {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__list-item {
+}
+
+.footer__social-icon {
+}
+
+.footer__social-link {
 }
