@@ -153,8 +153,13 @@
 .footer__content {
   display: flex;
   justify-content: space-between;
-  background: linear-gradient(180deg, #0a2850 #071831 100%);
+  /* background-color: linear-gradient(180deg, #0a2850 #071831 100%); */
 }
+
+.footer {
+  background-color: linear-gradient(180deg, #0a2850, #071831 100%);
+}
+
 .footer__logo {
   font-family: "Inter";
   font-style: normal;
@@ -162,6 +167,8 @@
   line-height: 20px;
   display: flex;
   justify-content: space-between;
+  /* height: 105px;
+  width: 39px; */
 }
 
 .footer__list {
@@ -186,7 +193,7 @@
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
-  display: flex;
+  /*display: flex; */
   justify-content: space-between;
 }
 
