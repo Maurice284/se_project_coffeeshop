@@ -153,11 +153,14 @@
 .footer__content {
   display: flex;
   justify-content: space-between;
+  color: white;
+  padding: 60px;
+
   /* background-color: linear-gradient(180deg, #0a2850 #071831 100%); */
 }
 
 .footer {
-  background-color: linear-gradient(180deg, #0a2850, #071831 100%);
+  background: linear-gradient(180deg, #0a2850, #071831 100%);
 }
 
 .footer__logo {
@@ -167,6 +170,7 @@
   line-height: 20px;
   display: flex;
   justify-content: space-between;
+  color: white;
   /* height: 105px;
   width: 39px; */
 }
@@ -176,6 +180,8 @@
   font-style: normal;
   font-weight: 16px;
   line-height: 20px;
+  padding: 0;
+  list-style-type: none;
 }
 
 .footer__copyright {
@@ -183,8 +189,10 @@
   font-style: normal;
   font-weight: 16px;
   line-height: 20px;
-  margin-top: 108px;
-  margin-bottom: 60px;
+  color: white;
+  padding-top: 108px;
+  padding-bottom: 60px;
+  padding-left: 80px;
 }
 
 .footer__social-heading {
@@ -193,14 +201,25 @@
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
-  /*display: flex; */
+  /* display: flex; */
   justify-content: space-between;
+  color: white;
+  list-style-type: none;
 }
 
 .footer__list-item {
 }
 
 .footer__social-icon {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  /*display: flex; */
+  justify-content: space-between;
+  color: white;
+  list-style-type: none;
 }
 
 .footer__social-link {
