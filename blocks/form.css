@@ -21,6 +21,7 @@
 .form__label_type_checkbox {
   display: flex;
   justify-content: center;
+  margin-bottom: 0;
 }
 
 .form__fieldset {
@@ -34,7 +35,9 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  color: #838383;
+  border-color: #838383;
+  border-width: 1px;
+  border-style: solid;
   max-width: 385px;
   height: 60px;
   margin-top: 80px;
@@ -55,10 +58,9 @@
   width: 100%;
   padding: 0;
   margin-bottom: 32px;
+  border: none;
   border-radius: 4px;
   background-color: #2f80ed;
   height: 60px;
-  margin-top: 32px;
-  margin-bottom: 32px;
   color: white;
 }

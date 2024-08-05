@@ -9,7 +9,7 @@
     <meta name="X-UA-Compatible" content="IE=edge" />
 
     <link rel="stylesheet" href="pages/index.css" />
-    <link rel="stylesheet" href="vendor/normalize.css" />
+
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -85,7 +85,9 @@
                 src="https://www.youtube.com/embed/st571DYYTR8?si=U1kC1SUzQusyATO_"
                 class="recipes__iframe"
               ></iframe>
-              <p class="recipes__video-caption">French press recipes ~15 min</p>
+              <p class="recipes__video-caption">
+                <span>french press recipes</span><span>~15 min</span>
+              </p>
             </div>
           </div>
         </section>
@@ -96,6 +98,7 @@
             <fieldset class="form__fieldset">
               <label for="name" class="form__label">
                 Name *<input
+                  required
                   type="text"
                   class="form__input"
                   placeholder="Name Surname"
@@ -105,6 +108,7 @@
 
               <label for="number" class="form__label">
                 Number of guests *<input
+                  required
                   type="number"
                   class="form__input"
                   placeholder="1-8"
@@ -113,6 +117,7 @@
               </label>
               <label for="date-&-time" class="form__label">
                 Date & time *<input
+                  required
                   type="datetime-local"
                   class="form__input"
                   id="date-&-time"
@@ -120,6 +125,7 @@
               </label>
               <label for="email" class="form__label">
                 Your email *<input
+                  required
                   type="email"
                   class="form__input"
                   placeholder="email@email.com"
@@ -127,12 +133,17 @@
                 />
               </label>
             </fieldset>
-            <button class="form__button">Book a table</button>
+            <button class="form__button" type="submit">Book a table</button>
             <label
               for="book-a-table"
               class="form__label form__label_type_checkbox"
             >
-              <input type="checkbox" class="form__checkbox" id="book-a-table" />
+              <input
+                required
+                type="checkbox"
+                class="form__checkbox"
+                id="book-a-table"
+              />
               I agree with terms of use
             </label>
           </form>
@@ -149,19 +160,23 @@
               <h3 class="card__title">Filter</h3>
               <ul class="card__list">
                 <li class="card__list-item">
-                  Menu item<span class="card__list-divider"></span>$1
+                  Regular (12 0z)<span class="card__list-divider"></span>$1
                 </li>
                 <li class="card__list-item">
-                  Menu item<span class="card__list-divider"></span>$1.25
+                  Large (16 oz)<span class="card__list-divider"></span>$1.25
                 </li>
                 <li class="card__list-item">
-                  Menu item<span class="card__list-divider"></span>$1.5
+                  XL (20 oz)<span class="card__list-divider"></span>$1.5
                 </li>
                 <li class="card__list-item">
-                  Menu item<span class="card__list-divider"></span>$1.75
+                  Party-size (24 oz,decaf)<span
+                    class="card__list-divider"
+                  ></span
+                  >$1.75
                 </li>
                 <li class="card__list-item">
-                  Menu item<span class="card__list-divider"></span>$1.25
+                  Iced Coffee (16 oz)<span class="card__list-divider"></span
+                  >$1.25
                 </li>
               </ul>
             </li>
@@ -241,11 +256,12 @@
           />
           <!-- </div> -->
 
-          <div class="footer__social-heading">
-            Social media
+          <div class="footer__social-column">
+            <h2 class="footer__social-heading">Social media</h2>
+
             <ul class="footer__list">
               <li class="footer__list-item">
-                <a href="https://www.facebook.com" class="footer__social-icon">
+                <a href="https://www.facebook.com" class="footer__social-link">
                   <img
                     src="./images/facebook_white.svg"
                     alt="Facebook logo"
@@ -255,7 +271,7 @@
                 >
               </li>
               <li class="footer__list-item">
-                <a href="#contacts" class="footer__social-heading">
+                <a href="#contacts" class="footer__social-link">
                   <img
                     src="./images/instagram_white.svg"
                     alt="Instagram logo"

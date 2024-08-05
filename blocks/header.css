@@ -9,6 +9,7 @@
   background-image: url("../images/background_header.svg");
   background-size: cover;
   z-index: 1;
+  box-sizing: border-box;
 }
 
 .header__title {
@@ -57,13 +58,11 @@
   align-items: end;
 }
 
-.header_paragraph {
+.header__paragraph {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   color: #6f6f6f;
   margin: 0;
-  margin-left: 80px;
-  margin-bottom: 40px;
 }

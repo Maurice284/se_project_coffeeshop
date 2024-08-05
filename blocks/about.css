@@ -46,7 +46,13 @@
 
 .about__paragraph {
   color: white;
+  margin-bottom: 20px;
 }
+
+.about__paragraph:last-of-type {
+  margin-bottom: 0;
+}
+
 .about__circle {
   border-radius: 50%;
   background-color: #275ed6;
